@@ -1,17 +1,13 @@
 module.exports = {
-  extends: ['next/core-web-vitals', 'eason'],
+  extends: ['next/core-web-vitals', 'eason', 'plugin:tailwindcss/recommended'],
+  plugins: ['tailwindcss'],
+  rules: {
+    'tailwindcss/classnames-order': 'off',
+  },
   overrides: [
     {
       files: '**/*.{ts,tsx}',
-      extends: ['next/core-web-vitals', 'eason/typescript'],
-      rules: {
-        '@typescript-eslint/no-unused-vars': [
-          'warn',
-          {
-            args: 'none',
-          },
-        ],
-      },
+      extends: ['eason/typescript'],
     },
   ],
 };
