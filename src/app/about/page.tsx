@@ -1,10 +1,10 @@
 import { ContactUsSection } from '@/components/ContactUsSection';
 import { SponsorshipSection } from '@/components/SponsorshipSection';
 
-export default function HomePage() {
+export default function AboutPage() {
   return (
     <div>
-      <p>Home Page</p>
+      <p>About Page</p>
       <ContactUsSection />
       <SponsorshipSection />
     </div>
