@@ -6,4 +6,25 @@
   .text-balance {
     text-wrap: balance;
   }
+
+  /* Texts from Figma spec */
+  .text-headline1 {
+    @apply text-[3rem] font-bold leading-[1.2];
+  }
+  .text-headline2 {
+    @apply text-[1.5rem] font-bold leading-[1.5];
+  }
+  .text-headline3 {
+    @apply text-[1.25rem] font-bold leading-[1.5];
+  }
+  .text-body1regular {
+    @apply text-[1.125rem] font-normal leading-[1.5];
+  }
+  .text-body1bold {
+    @apply text-[1.125rem] font-bold leading-[1.5];
+  }
+  .text-body2 {
+    @apply text-[1rem] font-normal leading-[1.5];
+  }
+  /* ./Texts from Figma spec */
 }
