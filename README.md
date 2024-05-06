@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Calgary Bubble Tea Festival 2024
 
-## Getting Started
+Demo site: [https://calgary-bubble-tea-festival.vercel.app/](https://calgary-bubble-tea-festival.vercel.app/)
 
-First, run the development server:
+## Technologies
+
+- Node.js (v20.12.2)
+- pnpm (v9.0.6)
+- Next.js (v14.2.3 with app router)
+- Tailwind CSS (v3.4.1)
+- Custom eslint, prettier, husky, lint-staged
+
+## Development
+
+### Installation
+
+Install Node.js v20.12.2 and pnpm v9.0.6. on your machine.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Development server
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Then open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Learn More
+### Linting
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+pnpm lint:fix # fix linting errors in JS/TS files with eslint & prettier
+pnpm format:fix # fix formatting errors in other files (md,json,css) with prettier
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Husky and lint-staged are also set up to run the above commands automatically on commit.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+The project will be deployed to Vercel automatically from the `main` branch.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Demo site: [https://calgary-bubble-tea-festival.vercel.app/](https://calgary-bubble-tea-festival.vercel.app/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Vercel account owner: `Eason Chang`
