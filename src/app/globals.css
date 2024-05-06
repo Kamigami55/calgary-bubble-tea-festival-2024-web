@@ -2,32 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+
+  /* Texts from Figma spec */
+  .text-headline1 {
+    @apply text-[3rem] font-bold leading-[1.2];
+  }
+  .text-headline2 {
+    @apply text-[1.5rem] font-bold leading-[1.5];
+  }
+  .text-headline3 {
+    @apply text-[1.25rem] font-bold leading-[1.5];
+  }
+  .text-body1regular {
+    @apply text-[1.125rem] font-normal leading-[1.5];
+  }
+  .text-body1bold {
+    @apply text-[1.125rem] font-bold leading-[1.5];
+  }
+  .text-body2 {
+    @apply text-[1rem] font-normal leading-[1.5];
+  }
+  /* ./Texts from Figma spec */
 }
