@@ -1,5 +1,5 @@
-import { ContactUsSection } from '@/components/ContactUsSection';
-import { SponsorshipSection } from '@/components/SponsorshipSection';
+import { ContactUsSection } from '@/sections/ContactUsSection';
+import { SponsorshipSection } from '@/sections/SponsorshipSection';
 
 export default function AboutPage() {
   return (

@@ -24,6 +24,8 @@ const config: Config = {
       colors: {
         primary: '#310C03',
         secondary: '#F0E6DA',
+        surfacePrimary: '#F7F4EF',
+        surfaceSecondary: '#FCFBF9',
       },
     },
   },
