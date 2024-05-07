@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={clsx(prompt.className, 'bg-white')}>
+      <body className={clsx(prompt.className, 'bg-surfaceSecondary')}>
         <div className="flex min-h-screen flex-col">
           <Header />
           <main className="grow">{children}</main>
