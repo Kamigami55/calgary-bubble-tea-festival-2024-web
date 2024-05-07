@@ -1,4 +1,4 @@
-import { type ReactElement, type ReactNode, useState } from 'react';
+import { type ReactElement, useState } from 'react';
 
 import { MinusIcon } from './MinusIcon';
 import { PlusIcon } from './PlusIcon';
@@ -6,7 +6,7 @@ import { PlusIcon } from './PlusIcon';
 interface AccordionProps {
   items: {
     question: string;
-    answer: ReactNode | string;
+    answer: string;
   }[];
 }
 
