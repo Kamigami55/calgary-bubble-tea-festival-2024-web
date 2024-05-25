@@ -1,23 +1,15 @@
 import Image from 'next/image';
 
-import flower1Img from '@/assets/flower1.svg';
-import flower2Img from '@/assets/flower2.svg';
+import Flower1Svg from '@/assets/flower1.svg';
+import Flower2Svg from '@/assets/flower2.svg';
 import holdingBubbleTeaOnStreetImg from '@/assets/holding-bubble-tea-on-street.jpg';
 
 export function AboutSection() {
   return (
     <section>
       <div className="relative mx-auto max-w-[1440px] px-4 py-10 xs:px-16 xs:py-20">
-        <Image
-          src={flower1Img}
-          alt=""
-          className="absolute left-[10%] top-[35px] -z-10 w-[40px] xs:w-[54px] lg:left-[20%] lg:top-[44px]"
-        />
-        <Image
-          src={flower2Img}
-          alt=""
-          className="absolute right-[20%] top-[120px] -z-10 w-[24px] xs:w-[38px]"
-        />
+        <Flower1Svg className="absolute left-[10%] top-[35px] -z-10 w-[40px] xs:w-[54px] lg:left-[20%] lg:top-[44px]" />
+        <Flower2Svg className="absolute right-[20%] top-[120px] -z-10 w-[24px] xs:w-[38px]" />
         <h1 className="text-headline2 xs:text-headline1 mb-4 text-center">
           About
         </h1>
