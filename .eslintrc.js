@@ -3,11 +3,16 @@ module.exports = {
   plugins: ['tailwindcss'],
   rules: {
     'tailwindcss/classnames-order': 'off',
+    'react/no-unescaped-entities': 'off',
   },
   overrides: [
     {
       files: '**/*.{ts,tsx}',
       extends: ['eason/typescript'],
+      rules: {
+        'tailwindcss/classnames-order': 'off',
+        'react/no-unescaped-entities': 'off',
+      },
     },
   ],
 };
