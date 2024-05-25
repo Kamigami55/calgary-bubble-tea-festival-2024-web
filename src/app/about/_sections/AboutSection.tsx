@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import Flower1Svg from '@/assets/flower1.svg';
 import Flower2Svg from '@/assets/flower2.svg';
-import holdingBubbleTeaOnStreetImg from '@/assets/holding-bubble-tea-on-street.jpg';
+import holdingBubbleTeaImg from '@/assets/holding-bubble-tea.jpg';
 
 export function AboutSection() {
   return (
@@ -14,41 +14,46 @@ export function AboutSection() {
           About
         </h1>
         <p className="text-body1regular mb-10 text-center xs:mb-16 lg:mb-20">
-          Learn more about Taiwanese Bubble Tea Festival!
+          Learn more about Us!
         </p>
         <div className="flex flex-col justify-evenly gap-20 lg:flex-row">
           <div className="w-full">
             <h2 className="text-headline2 mb-6">
-              Welcome to the 2024 Calgary Bubble Tea Festival!
+              Team of Calgary Bubble Tea Festival
             </h2>
             <p className="text-body2">
-              Come together on 13th July to honor the pioneers of bubble tea and
-              appreciate the creativity that Taiwanese tea culture has brought
-              to the world.
+              We are Alberta Taiwanese Culture And Commerce Society, a
+              passionate team driven by a love of Taiwanese culture. Through
+              careful planning, we create unforgettable experiences for our
+              visitors.
               <br />
               <br />
-              Whether you’re a seasoned bubble tea drinker or a newcomer, we
-              invite you to join us in this celebration at Haultain Park. Our
-              aim of this festival is to interweave the Taiwanese heritage with
-              the diverse fabric of Calgary, creating a harmonious blend that
-              enriches the lives of our city’s residents.
+              Behind the scenes, our team of professionals handles every aspect
+              of festival planning. From coordinating logistics and managing
+              finances to creating captivating visuals and marketing campaigns,
+              we work tirelessly to ensure a seamless and memorable experience
+              for all.
               <br />
               <br />
-              This festival isn’t only about bubble tea - it offers an
-              opportunity to experience cultural booths, interactive game
-              stalls, and local feature stalls, as well as savor both Taiwanese
-              and global cuisines.
+              As organizers, we are proud of our diverse lineup of carefully
+              selected vendors who showcased the best of Taiwanese cuisine and
+              bubble tea. From traditional flavors to innovative products, there
+              is something to satisfy your taste buds.
               <br />
               <br />
-              Above all, the festival presents an opportunity for Calgarians to
-              try Asian desserts they may not have tried before, while raising
-              money for a good cause. So save the dates and get ready for a
-              joyous and enriching celebration!
+              But our festival is not just about food, it's about celebrating
+              Taiwanese traditions and values. Through engaging activities and
+              cultural performances, visitors can immerse themselves in our rich
+              heritage and deepen their understanding of Taiwanese culture.
+              <br />
+              <br />
+              Join us at the Calgary Bubble Tea Festival to sample new flavors,
+              make memories and celebrate our vibrant community!
             </p>
           </div>
           <div className="w-full">
             <Image
-              src={holdingBubbleTeaOnStreetImg}
+              src={holdingBubbleTeaImg}
               alt="holding bubble tea on street"
               className="aspect-[343/303] w-full rounded-xl object-cover object-center xs:aspect-[640/552] lg:aspect-[625/574]"
             />
